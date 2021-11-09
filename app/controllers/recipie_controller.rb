@@ -1,6 +1,6 @@
 class RecipieController < ApplicationController
   def index
-
+    render json: Recipie.all
   end
 
   def show
